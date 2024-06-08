@@ -182,41 +182,53 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
           ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              _buildButton("7"),
-              _buildButton("8"),
-              _buildButton("9"),
-              _buildButton("/"),
-            ],
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 8.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                _buildButton("7"),
+                _buildButton("8"),
+                _buildButton("9"),
+                _buildButton("/"),
+              ],
+            ),
           ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              _buildButton("4"),
-              _buildButton("5"),
-              _buildButton("6"),
-              _buildButton("*"),
-            ],
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 8.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                _buildButton("4"),
+                _buildButton("5"),
+                _buildButton("6"),
+                _buildButton("*"),
+              ],
+            ),
           ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              _buildButton("1"),
-              _buildButton("2"),
-              _buildButton("3"),
-              _buildButton("-"),
-            ],
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 8.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                _buildButton("1"),
+                _buildButton("2"),
+                _buildButton("3"),
+                _buildButton("-"),
+              ],
+            ),
           ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              _buildButton("0"),
-              _buildButton("C"),
-              _buildButton("="),
-              _buildButton("+"),
-            ],
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 8.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                _buildButton("0"),
+                _buildButton("C"),
+                _buildButton("="),
+                _buildButton("+"),
+              ],
+            ),
           ),
         ],
       ),
